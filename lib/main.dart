@@ -7,12 +7,19 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    int days=30;
+    String name="Asif Ashraf";
+    bool isChecked=true;
+    num value=1;
+    num value2=1.2;
+    var result="Hello World";
+    const country="Pakistan";
     return MaterialApp(
       home:Material(
       child: Center(
         child: Container(
-          child: Text("Welcome",
-          style: TextStyle(color: Colors.blue,fontSize: 40.0),textDirection: TextDirection.rtl,
+          child: Text("Welcome $days $name",
+          style: TextStyle(color: Colors.blue),textDirection: TextDirection.rtl,
           ),
 
         ),
